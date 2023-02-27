@@ -62,10 +62,4 @@ async def main():
     await page.waitFor(100000) 
     await browser.close()
 
-
-
-
-
-
-
 asyncio.run(main())
